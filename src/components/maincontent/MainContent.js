@@ -4,6 +4,7 @@ import Banner from "./Banner/Banner";
 import "./MainContent.css";
 import CategoriesRow from "./Row/CategoriesRow";
 import BrandsRow from "./Row/BrandsRow";
+import Footer from "./Footer/Footer"
 
 function MainContent() {
   return (
@@ -12,6 +13,7 @@ function MainContent() {
       <Banner />
       <BrandsRow />
       <CategoriesRow />
+      <Footer/>
     </div>
   );
 }
