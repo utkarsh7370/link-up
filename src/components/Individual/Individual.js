@@ -11,7 +11,7 @@ function Individual() {
       <Influencer />
       <Services />
       <Testimonial />
-      <SocialLinks />
+      {/* <SocialLinks /> */}
     </div>
   );
 }

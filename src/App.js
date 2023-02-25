@@ -7,6 +7,8 @@ import Login from "./components/Sign/Login/Login";
 import Register from "./components/Sign/Register/Register";
 import AccountDetail from "./components/SetupAccount/AccountDetail";
 import Cart from "./components/Individual/Cart/Cart";
+import Payment from "./components/Payment/Payment";
+import PaymentSuccess from "./components/Payment/PaymentSuccess";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/Register" element={<Register />}></Route>
           <Route path="/details" element={<AccountDetail />}></Route>
           <Route path="/cart" element={<Cart />}></Route>
+          <Route path="/payment" element={<Payment />}></Route>
+          <Route path="/paymentsuccess" element={<PaymentSuccess />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

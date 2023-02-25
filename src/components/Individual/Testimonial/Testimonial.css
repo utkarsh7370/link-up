@@ -52,7 +52,7 @@
   font-weight: 300;
   text-align: justify;
   /* position:absolute; */
-  margin-left: 650px;
+  margin-left: 550px;
 }
 
 .swiper-slide .subtitle {
@@ -67,5 +67,5 @@
 .text {
   text-align: justify;
   /* position:absolute; */
-  margin-left: 500px;
+  margin-left: 400px;
 }

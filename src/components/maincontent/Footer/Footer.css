@@ -1,0 +1,70 @@
+footer {
+    padding: 5rem 0;
+    /* background-color: #182334;  */
+    background-color: #e0e0e0;
+    /* background-color: var(--bg-pink); */
+    color: #182334 !important;
+  }
+  
+  footer h2 {
+    color: #fff;
+  }
+  
+  footer li {
+    list-style: none;
+    font-size: 1.2 rem;
+    font-weight: lighter;
+    color: #fff;
+    cursor: pointer;
+    margin: 1rem 0;
+    position:relative;
+    margin-left: -26px;
+  }
+  footer li a {
+    /* list-style: none; */
+    /* font-size: 1.2 rem; */
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    /* transition: 2s; */
+  
+    /* cursor: pointer; */
+    /* margin: 1rem 0; */
+  }
+  
+  footer li a:hover {
+    /* color: var(--primary-color); */
+    color: #d42fae82;
+  }
+  
+  footer .fontawesome-style {
+    font-size: 2.3rem;
+    color: var(--primary-color);
+    background-color: transparent;
+    width: 0rem;
+    height: 0rem;
+    margin: 2rem 0;
+    cursor: pointer;
+  }
+  
+  footer .fontawesome-style:hover {
+    transition: all 1s;
+    animation: rotatefont 1s linear infinite alternate-reverse;
+    color: rgb(54, 218, 49);
+  }
+  @keyframes rotatefont {
+    0% {
+      transform: scale(0.6);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+  
+  /* footer .mt-5{
+    background-color: #0b0c0c;
+  } */
+  footer .main-hero-para {
+    margin: 0;
+    /* background-color: #0b0c0c;  */
+  }

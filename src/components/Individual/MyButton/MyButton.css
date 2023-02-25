@@ -1,4 +1,4 @@
-button {
+/* button {
   background-color: #d42fae82;
   border: none;
   color: white;
@@ -11,7 +11,7 @@ button {
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
-}
+} */
 
 button:hover {
   background-color: #b06da182;

@@ -4,6 +4,8 @@ import Banner from "./Banner/Banner";
 import "./MainContent.css";
 import CategoriesRow from "./Row/CategoriesRow";
 import BrandsRow from "./Row/BrandsRow";
+import FeatureList from "./Features/FeatureList";
+import Footer from "./Footer/Footer";
 
 function MainContent() {
   return (
@@ -12,6 +14,8 @@ function MainContent() {
       <Banner />
       <BrandsRow />
       <CategoriesRow />
+      <FeatureList />
+      <Footer />
     </div>
   );
 }
