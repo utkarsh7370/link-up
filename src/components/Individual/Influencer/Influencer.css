@@ -46,7 +46,7 @@
 #influencer__about {
   /* background-color: #d42fae82; */
   color: black;
-  font-family: Open Sans;
+  /* font-family: Open Sans; */
   padding: 50px 0px 50px 0px;
   text-align: center;
 }
@@ -69,9 +69,25 @@
   align-items: center;
   max-width: 33%;
   /* gap:5rem; */
+  padding:15px;
 }
 .influencer__fcont {
   display: flex;
   justify-content: space-evenly;
   padding: 0 50px;
+}
+.influ__btn{
+  height: 5px;
+
+}
+
+.new_btn button{
+  height:7vh;
+  width:20%;
+  margin-top:15px;
+  margin-left: 500px;
+  color:white
+}
+.influencer__text-size{
+  padding:0px 100px 0px 100px;
 }
