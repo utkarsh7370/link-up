@@ -1,0 +1,50 @@
+.banner {
+  display: flex;
+  margin: 120px;
+  justify-content: space-between;
+  height: 540px;
+  /* background-color: pink; */
+}
+
+.banner__search {
+  margin-left: 100px;
+  width: 600px;
+}
+
+.banner__title {
+  margin-top: 200px;
+  margin-left: 40px;
+}
+
+.banner__card {
+  display: flex;
+  margin-right: 100px;
+}
+
+.banner__find {
+  display: flex;
+}
+
+.banner__input {
+  margin-left: 40px;
+  margin-right: 10px;
+  width: 50%;
+  padding: 14px 0 14px 14px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.banner__button {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  padding: 14px 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-right: 12px;
+  font-family: inherit;
+  transition-duration: 0.3s;
+}

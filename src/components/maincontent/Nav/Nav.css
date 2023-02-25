@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.website__name {
+  color: pink;
+  font-size: 40px;
+  font-weight: 800;
+  margin-left: 160px;
+}
+
+.nav__options {
+  display: flex;
+  margin-right: 80px;
+}
+
+.nav__text {
+  color: black;
+  padding: 20px;
+}
+
+.nav__shade {
+  color: palevioletred;
+}

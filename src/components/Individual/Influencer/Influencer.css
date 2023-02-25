@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+.influencer__body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.influencer__header {
+  text-align: center;
+  padding: 32px;
+  color: #d42fae82;
+}
+
+.influencer__row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: -5px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.influencer__column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.influencer__image-container:hover img {
+  transform: scale(1.1);
+  transition: transform 0.1s ease-in-out;
+}
+.influencer__column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .influencer__column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+#influencer__about {
+  /* background-color: #d42fae82; */
+  color: black;
+  font-family: Open Sans;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+}
+.influencer__title-size {
+  color: #d42fae82;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.influencer__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+  max-width: 33%;
+  /* gap:5rem; */
+}
+.influencer__fcont {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 50px;
+}

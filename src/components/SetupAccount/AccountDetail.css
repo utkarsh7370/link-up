@@ -1,0 +1,30 @@
+.form-control {
+  background-color: transparent !important;
+  outline: none !important;
+  border: 2px solid #d42fae82 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+::placeholder {
+  opacity: 1 !important;
+}
+.form-button {
+  display: flex;
+  justify-content: space-between;
+}
+.form-button button {
+  background-color: #d42fae82;
+  color: #fff;
+  padding: 6px 20px;
+  border-radius: 0.7rem;
+}
+.form-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form-heading h2,
+.form-heading h4 {
+  color: #d42fae82;
+}
