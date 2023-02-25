@@ -1,50 +1,65 @@
 .banner {
-  display: flex;
-  margin: 120px;
+  /* display: flex;
+  margin-top: 5rem;
   justify-content: space-between;
-  height: 540px;
-  /* background-color: pink; */
+  height: 540px; */
+  /* /* background-color: pink;  */
 }
 
 .banner__search {
-  margin-left: 100px;
-  width: 600px;
+  /* margin-left: 100px;
+  width: 600px; */
 }
 
 .banner__title {
-  margin-top: 200px;
-  margin-left: 40px;
+  margin-top: 6rem;
+  text-align: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 2rem;
 }
 
 .banner__card {
   display: flex;
-  margin-right: 100px;
+
+  /* margin-right: 100px; */
 }
 
 .banner__find {
-  display: flex;
+  /* display: flex; */
 }
 
 .banner__input {
-  margin-left: 40px;
-  margin-right: 10px;
-  width: 50%;
-  padding: 14px 0 14px 14px;
+   margin-left: 40px;
+  /* margin-right: 10px; */
+  width: 70%;
+  padding: 10px 10px;
   border-radius: 30px;
   position: relative;
+  outline: none;
+  border: 1px solid darkgrey;
+
 }
 
-.banner__button {
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  color: white;
-  border-radius: 50px;
-  padding: 14px 15px;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  margin-right: 12px;
-  font-family: inherit;
-  transition-duration: 0.3s;
+.bannerButton {
+  /* display: flex; */
+  /* justify-content: center; */
+  /*  */
+    color: #fff;
+    background-color: darkgray;
+    width: 10%;
+    border-radius: 50px;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
 }
+
+
+@media screen and (max-width: 1200px) {
+  .banner {
+      /* flex-direction: column;
+      margin: auto;
+      width: 100%; */
+    }
+}
+

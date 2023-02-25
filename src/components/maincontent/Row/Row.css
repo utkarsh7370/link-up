@@ -5,13 +5,14 @@
 }
 
 .rows__heading {
+  font-weight: bold;
   margin-left: 40px;
   margin-bottom: 0;
 }
 
 .rows__description {
   color: gray;
-  font-weight: 500;
+  font-weight: 300;
   margin-left: 40px;
   margin-top: 0;
   margin-bottom: 0;
