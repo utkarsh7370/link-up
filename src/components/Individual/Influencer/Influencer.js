@@ -1,6 +1,6 @@
 import React from "react";
 import "./Influencer.css";
-
+import SocialLinks from "../Socials/Socials";
 import "../Services/Services";
 import MyButton from "../MyButton/MyButton";
 import { motion, useScroll } from "framer-motion";
@@ -91,9 +91,10 @@ function Influencer() {
           aliquip ex ea commodo consequat. Duis aute irure dolor in
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
+          culpa qui officia deserunt mollit anim id est."
         </p>
       </div>
+      <SocialLinks/>
       <div className="influencer__header">
         <h1>Services</h1>
       </div>
@@ -129,9 +130,14 @@ function Influencer() {
               desired.
             </p>
           </article>
-          <MyButton label="Add to Cart" onClick={handleClick} />
+          
         </>
       </div>
+      <div className="new_btn">
+     < button type="submit" onClick={handleClick} >
+      Book a package
+     </button>
+          </div>
     </div>
   );
 }

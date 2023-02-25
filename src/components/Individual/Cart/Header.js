@@ -5,7 +5,7 @@ export default function Header(props) {
     <header className="block row center">
       <div>
         <a href="#/">
-          <h1>Small Shopping Cart</h1>
+          <h1> Cart Checking out</h1>
         </a>
       </div>
       <div>
@@ -17,7 +17,7 @@ export default function Header(props) {
             ""
           )}
         </a>{" "}
-        <a href="#/signin"> SignIn</a>
+        {/* <a href="#/signin"> SignIn</a> */}
       </div>
     </header>
   );
