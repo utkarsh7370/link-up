@@ -1,6 +1,10 @@
 import React from "react";
 
 export default function Basket(props) {
+  const handleClick = () => {
+    window.location = "/payment";
+    console.log("Button clicked!");
+  };
   const { cartItems, onAdd, onRemove } = props;
   const itemsPrice = cartItems.reduce((a, c) => a + c.qty * c.price, 0);
   const taxPrice = itemsPrice * 0.14;
@@ -57,9 +61,7 @@ export default function Basket(props) {
             </div>
             <hr />
             <div className="row">
-              <button onClick={() => alert("Implement Checkout!")}>
-                Checkout
-              </button>
+              <button onClick={handleClick}>Checkout</button>
             </div>
           </>
         )}

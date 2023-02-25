@@ -2,21 +2,24 @@ const data = {
   products: [
     {
       id: "1",
-      name: "MacBook",
-      price: 1400,
-      image: "https://picsum.photos/id/180/2400/1600",
+      name: "Package 1",
+      price: `${100}`,
+      description:
+        "This package includes 1 instagram reel video showcasing your products. I will also tag you and talk about the products in the caption. You will have access to this video to repost to your own pages if desired.",
     },
     {
       id: "2",
-      name: "Old Car",
-      price: 2400,
-      image: "https://picsum.photos/id/111/4400/2656",
+      name: "Package 2",
+      price: `${100}`,
+      description:
+        "This package includes 1 instagram reel video showcasing your products. I will also tag you and talk about the products in the caption. You will have access to this video to repost to your own pages if desired.",
     },
     {
       id: "3",
-      name: "W Shoes",
-      price: 1000,
-      image: "https://picsum.photos/id/21/3008/2008",
+      name: "Package 3",
+      price: `${100}`,
+      description:
+        "This package includes 1 instagram reel video showcasing your products. I will also tag you and talk about the products in the caption. You will have access to this video to repost to your own pages if desired.",
     },
   ],
 };
