@@ -94,7 +94,7 @@ function Influencer() {
           culpa qui officia deserunt mollit anim id est."
         </p>
       </div>
-      <SocialLinks/>
+      <SocialLinks />
       <div className="influencer__header">
         <h1>Services</h1>
       </div>
@@ -130,14 +130,13 @@ function Influencer() {
               desired.
             </p>
           </article>
-          
         </>
       </div>
       <div className="new_btn">
-     < button type="submit" onClick={handleClick} >
-      Book a package
-     </button>
-          </div>
+        <button type="submit" onClick={handleClick}>
+          Book a package
+        </button>
+      </div>
     </div>
   );
 }
