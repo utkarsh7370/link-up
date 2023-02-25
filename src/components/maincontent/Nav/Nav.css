@@ -2,8 +2,21 @@
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  align-items: center;
 }
+.loginSignup{
+  background-color: pink;
+  color: White;
+  padding: 7px 15px;
+  border-radius: 2rem;
+  transition: 0.5s;
+  border:none;
+  margin-top: -1rem;
 
+}
+.loginSignup:hover{
+  background-color: palevioletred;
+}
 .website__name {
   color: pink;
   font-size: 40px;

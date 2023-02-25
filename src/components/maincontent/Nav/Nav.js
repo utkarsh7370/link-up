@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./Nav.css";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Nav() {
   const logInClick = () => {
@@ -11,6 +12,9 @@ function Nav() {
     window.location = "/Register";
     console.log("Button clicked!");
   };
+  const { loginWithRedirect } = useAuth0();
+  const { logout } = useAuth0();
+  const { isAuthenticated } = useAuth0();
   return (
     <div className="nav">
       <div className="website__name">linkup</div>
@@ -18,10 +22,28 @@ function Nav() {
         <div className="nav__text">Explore</div>
         <div className="nav__text">How It Works</div>
         <div className="nav__text">
-          <Link to="/Login">Login</Link>
+          {/* <Link to="/Login" className="loginSignup">
+            Login
+          </Link> */}
+          {isAuthenticated ? (
+            <button
+              onClick={() =>
+                logout({ logoutParams: { returnTo: window.location.origin } })
+              }
+              className="loginSignup"
+            >
+              Log Out
+            </button>
+          ) : (
+            <button className="loginSignup" onClick={() => loginWithRedirect()}>
+              Log In
+            </button>
+          )}
         </div>
         <div className="nav__text shade">
-          <Link to="/Register">Register</Link>
+          {/* <Link to="/Register" className="loginSignup">
+            Register
+          </Link> */}
         </div>
         {/* <div className="nav__text shade">Join as Creator</div> */}
       </div>

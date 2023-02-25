@@ -1,12 +1,12 @@
 .cards1 {
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   margin: 20px;
   overflow: hidden;
-  height: 500px;
+  height: 400px;
   width: 150px;
   transition: 0.5s ease-in;
   /* transition: "height 0.8s ease-out";
@@ -14,7 +14,7 @@
 }
 
 .cards1__image {
-  height: 500px;
+  height: 400px;
   width: 100%;
 }
 
@@ -26,8 +26,8 @@
   flex-direction: column;
   margin: 20px;
   overflow: hidden;
-  height: 500px;
-  width: 420px;
+  height: 400px;
+  width: 250px;
   transition: 0.5s ease-out;
   cursor: "pointer";
 }
