@@ -5,23 +5,26 @@ import image4 from "../images/3.png";
 export default [
   {
     id: 1,
-    title: "Handel Ercel",
-    heading: "Influencer",
-    image: { image2 },
-    body: "US",
+    heading: "No Upfront Cost",
+    image: "11.png",
+    body: "Search influencers for free. No subscriptions, contracts or hidden fees.",
   },
   {
     id: 2,
-    title: "Handel Ercel",
-    heading: "Influencer",
+    heading: "Vetted Influencers",
     image: "11.png",
-    body: "US",
+    body: "Every influencer is vetted by us. Always receive high-quality, professional content.",
   },
   {
     id: 3,
-    title: "Handel Ercel",
-    heading: "Influencer",
+    heading: "Instant Chat",
     image: "11.png",
-    body: "US",
+    body: "Instantly chat with influencers and stay in touch throughout the whole transaction.",
+  },
+  {
+    id: 4,
+    heading: "Secure Purchases",
+    image: "11.png",
+    body: `Your money is held safely until you approve the influencer’s work.`,
   },
 ];

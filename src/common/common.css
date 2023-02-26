@@ -14,13 +14,13 @@ a:hover {
 }
 @keyframes changeBg {
   0% {
-    background-color: #27496d;
+    background-color: #6b276d;
   }
   50% {
-    background-color: #0c7b93;
+    background-color: #8e0c93;
   }
   100% {
-    background-color: #27496d;
+    background-color: #6d274d;
   }
 }
 @keyframes changeBg2 {
