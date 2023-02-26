@@ -31,7 +31,7 @@ function Features1(props) {
     <div className="container">
       <div className="row">
         <div
-          className={`non-mobile col-lg-6 col-md-12 col-10 offset-1 offset-lg-0 ${
+          className={`non-mobile col-lg-5 col-md-10 col-10 offset-1 ${
             showAnimation ? "scale-in-bottom" : ""
           }`}
           ref={ref}
@@ -40,7 +40,7 @@ function Features1(props) {
             <img className="feature__image" src={props.image} alt="" />
           )}
         </div>
-        <div className="feature__text col-lg-6 col-md-12 col-12">
+        <div className="feature__text col-lg-5 col-md-10 col-10 offset-1">
           <h2 className="feature__title">{props.title}</h2>
           <h1 className="feature__heading">{props.heading}</h1>
           <h5 className="feature__body">{props.body}</h5>

@@ -14,7 +14,7 @@ function Nav() {
   };
   const { loginWithRedirect } = useAuth0();
   const { logout } = useAuth0();
-  const { isAuthenticated } = useAuth0();
+  const { isAuthenticated, user } = useAuth0();
   return (
     <div className="nav">
       <div className="website__name">linkup</div>
@@ -26,14 +26,17 @@ function Nav() {
             Login
           </Link> */}
           {isAuthenticated ? (
-            <button
-              onClick={() =>
-                logout({ logoutParams: { returnTo: window.location.origin } })
-              }
-              className="loginSignup"
-            >
-              Log Out
-            </button>
+            <>
+              <h2>Welcome {user.name}</h2>
+              <button
+                onClick={() =>
+                  logout({ logoutParams: { returnTo: window.location.origin } })
+                }
+                className="loginSignup"
+              >
+                Log Out
+              </button>
+            </>
           ) : (
             <>
               <button
