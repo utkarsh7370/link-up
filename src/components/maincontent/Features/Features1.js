@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Features.css";
 
-function Features(props) {
+function Features1(props) {
   const [showAnimation, setShowAnimation] = useState(false);
   const [showLeft, setShowLeft] = useState(false);
   const ref = useRef(null);
@@ -30,11 +30,6 @@ function Features(props) {
   return (
     <div className="container">
       <div className="row">
-        <div className="feature__text col-lg-6 col-md-12 col-12">
-          <h2 className="feature__title">{props.title}</h2>
-          <h1 className="feature__heading">{props.heading}</h1>
-          <h5 className="feature__body">{props.body}</h5>
-        </div>
         <div
           className={`non-mobile col-lg-6 col-md-12 col-10 offset-1 offset-lg-0 ${
             showAnimation ? "scale-in-bottom" : ""
@@ -45,9 +40,14 @@ function Features(props) {
             <img className="feature__image" src={props.image} alt="" />
           )}
         </div>
+        <div className="feature__text col-lg-6 col-md-12 col-12">
+          <h2 className="feature__title">{props.title}</h2>
+          <h1 className="feature__heading">{props.heading}</h1>
+          <h5 className="feature__body">{props.body}</h5>
+        </div>
       </div>
     </div>
   );
 }
 
-export default Features;
+export default Features1;

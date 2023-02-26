@@ -1,6 +1,6 @@
-.row {
-  /* background-color: pink; */
-}
+/* .container {
+  margin: 10px;
+} */
 
 .feature__text {
   font-size: 3rem;
@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: left;
   justify-content: Top;
-  height: 60vh;
+  height: 50vh;
 }
 
 .feature__body {
@@ -27,9 +27,10 @@
 }
 
 .feature__image {
-  height: 80%;
-  width: 80%;
+  height: 70%;
+  width: 70%;
   margin: 20px;
+  border-radius: 20px;
 }
 
 @media all and (max-width: 1300px) {
