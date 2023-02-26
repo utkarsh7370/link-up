@@ -1,5 +1,5 @@
 .max-width {
-  max-width: 85%;
+  max-width: 100%;
   margin: auto;
 }
 a {
@@ -14,13 +14,13 @@ a:hover {
 }
 @keyframes changeBg {
   0% {
-    background-color: #6b276d;
+    background-color: #f7baf9;
   }
   50% {
-    background-color: #8e0c93;
+    background-color: #e9c7ea;
   }
   100% {
-    background-color: #6d274d;
+    background-color: #fb8ac8;
   }
 }
 @keyframes changeBg2 {
