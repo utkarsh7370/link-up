@@ -1,5 +1,6 @@
 import React from "react";
 import Card1 from "../Card/Card1";
+import regi from "../../../regi.jpg";
 import "./Banner.css";
 
 function Banner() {
@@ -20,9 +21,12 @@ function Banner() {
           </div>
         </div>
         <div className="banner__card col-lg-5 col-md-10 col-10 offset-1">
+          {/* <Card1 />
           <Card1 />
-          <Card1 />
-          <Card1 />
+          <Card1 /> */}
+          <div className="homeImg">
+            <img src={regi} style={{ maxWidth: 400 }} alt="" />
+          </div>
         </div>
       </div>
     </div>
