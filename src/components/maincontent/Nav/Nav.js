@@ -19,8 +19,8 @@ function Nav() {
     <div className="nav">
       <div className="website__name">linkup</div>
       <div className="nav__options">
-        <div className="nav__text">Explore</div>
-        <div className="nav__text">How It Works</div>
+        {/* <div className="nav__text">Explore</div>
+        <div className="nav__text">How It Works</div> */}
         <div className="nav__text">
           {/* <Link to="/Login" className="loginSignup">
             Login
@@ -35,9 +35,20 @@ function Nav() {
               Log Out
             </button>
           ) : (
-            <button className="loginSignup" onClick={() => loginWithRedirect()}>
-              Log In
-            </button>
+            <>
+              <button
+                className="loginSignup"
+                onClick={() => loginWithRedirect()}
+              >
+                Join as Brand
+              </button>
+              <button
+                className="loginSignup"
+                onClick={() => loginWithRedirect()}
+              >
+                Join as Creator
+              </button>
+            </>
           )}
         </div>
         <div className="nav__text shade">

@@ -19,7 +19,7 @@ function Card2(props) {
       onMouseLeave={handleMouseLeave}
     >
       <div className="cards2image__container">
-        <div className="cards2__name">Fashion</div>
+        <div className="cards2__name">{props.name}</div>
         {/* <img className="cards2__image" src={img1} alt="cards-image" /> */}
         {/* <h2 className="text-center">Instagram</h2> */}
       </div>

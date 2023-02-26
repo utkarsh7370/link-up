@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    // name: "Handel Ercel",
+    name: "Fashion",
     // description: "Influencer",
     // coverImg: "16224584739010978.jpg",
     // location: "US",
@@ -11,7 +11,7 @@ export default [
   },
   {
     id: 2,
-    // name: "Handel Ercel",
+    name: "Beauty",
     // description: "Influencer",
     // coverImg: "16224584739010978.jpg",
     // location: "US",
@@ -21,7 +21,7 @@ export default [
   },
   {
     id: 3,
-    // name: "Handel Ercel",
+    name: "Life Style",
     // description: "Influencer",
     // coverImg: "16224584739010978.jpg",
     // location: "Norway",
@@ -31,7 +31,7 @@ export default [
   },
   {
     id: 4,
-    // name: "Handel Ercel",
+    name: "Travel",
     // description: "Influencer",
     // coverImg: "16224584739010978.jpg",
     // location: "US",

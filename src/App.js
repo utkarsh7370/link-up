@@ -4,7 +4,7 @@ import "./App.css";
 import MainContent from "./components/maincontent/MainContent";
 import Individual from "./components/Individual/Individual";
 import Login from "./components/Sign/Login/Login";
-import Register from "./components/Sign/Register/Register";
+// import Register from "./components/Sign/Register/Register";
 import AccountDetail from "./components/SetupAccount/AccountDetail";
 import Cart from "./components/Individual/Cart/Cart";
 import Payment from "./components/Payment/Payment";
@@ -18,7 +18,7 @@ function App() {
           <Route path="/" element={<MainContent />}></Route>
           <Route path="/individual" element={<Individual />}></Route>
           <Route path="/Login" element={<Login />}></Route>
-          <Route path="/Register" element={<Register />}></Route>
+          {/* <Route path="/Register" element={<Register />}></Route> */}
           <Route path="/details" element={<AccountDetail />}></Route>
           <Route path="/cart" element={<Cart />}></Route>
           <Route path="/payment" element={<Payment />}></Route>
